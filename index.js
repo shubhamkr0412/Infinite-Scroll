@@ -3,7 +3,7 @@ let searchParent = document.getElementById("searchResults");
 var titles = [];
 function getData(page) {
   fetch(
-    `https://api.pexels.com/v1/search?query=bikes&page=${page}&per_page=25`,
+    `https://api.pexels.com/v1/search?query=beaches&page=${page}&per_page=25`,
     {
       method: "GET",
       headers: {
